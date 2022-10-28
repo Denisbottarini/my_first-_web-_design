@@ -1,4 +1,60 @@
-.titulo{
-    color:aqua; 
+*{
+    scroll-behavior: smooth;
+}
+
+.titulo {
+    color:rgb(18, 150, 24);
     font-family: 'Anonymous Pro', monospace;
+}
+
+body {
+    background-color: #4e4f50;
+    color: #fff;
+    box-sizing: border-box;
+    width: 100vw;
+    margin: -25px 5px;
+    align-items: center;
+}
+
+p{
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    background-color: beige;
+    color:rgb(186, 15, 242);
+}
+
+@media screen and (min-width: 768px) {
+    #inicio {
+        background-color: #000000;
+        color: #fff;
+    }
+
+    p {
+        font-size: 2rem;
+
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    #inicio {
+        background-color: #f7b80b;
+        color: rgb(186, 15, 242);
+    }
+
+    p {
+        font-size: 3rem;
+
+    }
+}
+
+.container {
+    width: 80%;
+    background-color: #555
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #inicio {
+        text-align: justify;
+    }
 }
