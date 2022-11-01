@@ -1,26 +1,29 @@
-*{
+* {
     scroll-behavior: smooth;
 }
 
 .titulo {
-    color:rgb(18, 150, 24);
+    color: rgba(189, 15, 15, 0.781);
     font-family: 'Anonymous Pro', monospace;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(97, 152, 163) 0%, rgba(9, 9, 121, 1) 79%, rgb(97, 152, 163) 92%);
 }
 
 body {
-    background-color: #4e4f50;
-    color: #fff;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     box-sizing: border-box;
     width: 100vw;
     margin: -25px 5px;
     align-items: center;
 }
 
-p{
+p {
     font-size: 2rem;
     font-family: 'Dancing Script', cursive;
-    background-color: beige;
-    color:rgb(186, 15, 242);
+    background: linear-gradient(90deg, rgb(97, 152, 163) 0%, rgba(9, 9, 121, 1) 79%, rgb(97, 152, 163) 92%);
+    color: rgb(255, 255, 255);
+    border-radius: 50% 50% 51% 49% / 51% 48% 52% 49%  ;
 }
 
 @media screen and (min-width: 768px) {
@@ -57,4 +60,40 @@ p{
     #inicio {
         text-align: justify;
     }
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	font-style:italic;
+	padding:10px 22px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(255, 255, 255);
+}
+
+img{
+    width: 500px;
+    height: auto;
 }
